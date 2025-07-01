@@ -1,0 +1,232 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "nest",
+  "yaml.schemas": {
+    "file:///c%3A/Users/Fabio/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i",
+    "file:///c%3A/Users/Matsu/.vscode/extensions/atlassian.atlascode-3.8.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "prettier.singleAttributePerLine": true,
+  // "prettier.useTabs": true,
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "jest.autoRun": {},
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "files.exclude": {
+    "**/.dart_tool": true,
+    "**/.idea": true
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "files.autoSave": "onFocusChange",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.localEchoEnabled": "on",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "One Dark Pro Italic",
+  "workbench.colorCustomizations": {
+    "[*]": {
+      "editor.background": "#181717",
+      "sideBar.background": "#222121",
+      "sideBarSectionHeader.background": "#2b2a2a",
+      "tab.activeBackground": "#4e4d4d",
+      "tab.hoverBackground": "#353535",
+      "editorIndentGuide.background": "#45454578",
+      "editorIndentGuide.activeBackground": "#adadad79",
+      "editor.lineHighlightBackground": "#ffffff10",
+      "editorRuler.foreground": "#ffffff27",
+      "editor.selectionBackground": "#ffffff51",
+      "editor.selectionHighlightBackground": "#ffffff22",
+    }
+  },
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.quickSuggestions": {
+    "other": "on"
+  },
+  "editor.snippetSuggestions": "top",
+  // "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    100
+  ],
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "entity.name.method.js",
+          "keyword", //import, export, return…
+          "storage.type.js",
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "source.go keyword.const.go",
+          "keyword.declaration.const",
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 12
+}
+/*
+
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": [
+              //following will be in italic
+              "comment",
+              "emphasis",
+              "entity.name.method.js",
+              "entity.name.class.js",
+              "entity.name.tag.doctype",
+              "entity.other.attribute-name",
+              "entity.other.attribute-name.tag.jade",
+              "entity.other.attribute-name.tag.pug",
+              "keyword",
+              "keyword.control",
+              "keyword.operator.comparison",
+              "keyword.control.flow.js",
+              "keyword.control.flow.ts",
+              "keyword.control.flow.tsx",
+              "keyword.control.ruby",
+              "keyword.control.module.ruby",
+              "keyword.control.class.ruby",
+              "keyword.control.def.ruby",
+              "keyword.control.loop.js",
+              "keyword.control.loop.ts",
+              "keyword.control.import.js",
+              "keyword.control.import.ts",
+              "keyword.control.import.tsx",
+              "keyword.control.from.js",
+              "keyword.control.from.ts",
+              "keyword.control.from.tsx",
+              "keyword.operator.expression.delete",
+              "keyword.operator.new",
+              "keyword.operator.expression",
+              "keyword.operator.cast",
+              "keyword.operator.relational",
+              "keyword.operator.sizeof",
+              "keyword.operator.logical.python",
+              "italic",
+              "markup.italic",
+              "markup.quote",
+              "markup.changed",
+              "markup.italic.markdown",
+              "markup.quote.markdown",
+              "markup.deleted.diff",
+              "markup.inserted.diff",
+              "meta.delimiter.period",
+              "meta.diff.header.git",
+              "meta.diff.header.from-file",
+              "meta.diff.header.to-file",
+              "meta.tag.sgml.doctype",
+              "meta.var.expr",
+              "meta.class meta.method.declaration meta.var.expr storage.type.js",
+              "meta.decorator punctuation.decorator",
+              "meta.selector",
+              "punctuation.accessor",
+              "punctuation.definition.comment",
+              "punctuation.definition.template-expression.begin",
+              "punctuation.definition.template-expression.end",
+              "punctuation.section.embedded",
+              "quote",
+              "source.js constant.other.object.key.js string.unquoted.label.js",
+              "source.go keyword.package.go",
+              "source.go keyword.import.go",
+              "source.go keyword.function.go",
+              "source.go keyword.type.go",
+              "source.go keyword.struct.go",
+              "source.go keyword.interface.go",
+              "source.go keyword.const.go",
+              "source.go keyword.var.go",
+              "source.go keyword.map.go",
+              "source.go keyword.channel.go",
+              "source.go keyword.control.go",
+              "storage",
+              "storage.type",
+              "storage.modifier",
+              "storage.type.property.js",
+              "storage.type.property.ts",
+              "storage.type.property.tsx",
+              "tag.decorator.js entity.name.tag.js",
+              "tag.decorator.js",
+              "text.html.basic entity.other.attribute-name.html",
+              "text.html.basic entity.other.attribute-name",
+              "variable.language",
+              "variable.other.object.property"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+        }
+    ]
+}
+*/
